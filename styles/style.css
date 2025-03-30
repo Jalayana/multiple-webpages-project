@@ -18,7 +18,7 @@ h1 {
   font-size: 96px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 65px;
   }
@@ -38,7 +38,7 @@ p {
   line-height: 1.5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h2,
   p,
   .primary-link {
@@ -67,7 +67,7 @@ p {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   img {
     display: none;
   }
