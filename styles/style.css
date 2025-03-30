@@ -18,6 +18,12 @@ h1 {
   font-size: 96px;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 65px;
+  }
+}
+
 h2 {
   font-size: 48px;
 }
@@ -30,6 +36,15 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  h2,
+  p,
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
 }
 
 .navigation-links {
@@ -50,6 +65,12 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
 }
 
 .secondary-link {
